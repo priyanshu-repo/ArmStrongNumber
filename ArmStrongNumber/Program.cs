@@ -22,6 +22,9 @@ namespace ArmStrongNumber
             }
            var result=  sum == num ? $"{num} is a armstrong number " : $"{num} is not a armstrong number";
             Console.WriteLine(result);
+
+            // added this line now create new branch
+            Console.WriteLine("this is added for testing clone");
             Console.ReadLine(); 
         }
     }

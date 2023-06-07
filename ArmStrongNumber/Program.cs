@@ -10,7 +10,7 @@ namespace ArmStrongNumber
     {
         static void Main(string[] args)
         {
-            Console.Write($"Enter the number to check it is armstrong or not :- ");
+            Console.Write($"Enter the number to check whether the number is armstrong or not :- ");
             int num = int.Parse(Console.ReadLine());
 
             int temp = num, sum = 0, rem;
